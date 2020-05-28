@@ -1,0 +1,64 @@
+html,body { 
+    height: 100%;
+    background-color: #0a97b0;
+}
+.wrapper{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    
+}
+.card{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    width:450px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+    font-weight: bolder;
+    color: white;
+}
+#user,#pass{
+    background-color: transparent;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+#show{
+    vertical-align: middle;
+}
+#check{
+    font-size: smaller;
+    display: inline-block;
+    color: white;
+}
+#display1{
+    color: white;
+}
+#display2{
+    color: white;
+}
+button{
+    background: transparent !important;
+    border-color: white !important;
+    font-weight: bold !important;
+}
+button:hover{
+    background-color: #09889e !important;
+}
+button:active{
+    background-color: #0a97b0 !important;
+    border-color: black !important;
+    color: rgb(177, 174, 174) !important;
+}
+.forgot{
+    text-align: center;
+    color: white;
+}
+.container2{
+    text-align: center;
+}
